@@ -16,7 +16,7 @@ Este projeto foi adaptado do modelo [falvojr/dio-lab-bia-do-futuro](https://gith
 
 ```mermaid
 flowchart TD
-    A[Pessoa usuária] --> B[Streamlit]
+    A[Usuário] --> B[Streamlit]
     B --> C[Busca lexical na base]
     C --> D[Contexto com fontes]
     D --> E[Ollama - gpt-oss:20b]
