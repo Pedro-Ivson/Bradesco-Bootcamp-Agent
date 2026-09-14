@@ -114,4 +114,3 @@ O material é educacional. Qualquer pessoa com sintomas, diagnóstico, uso de me
 ## Documentação do Lab
 
 Os cinco documentos em `docs/` registram os seis passos pedidos pela atividade: documentação do agente, base de conhecimento, prompts, aplicação funcional, avaliação/métricas e pitch.
-

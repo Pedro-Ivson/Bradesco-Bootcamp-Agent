@@ -11,7 +11,7 @@ from pathlib import Path
 from pypdf import PdfReader
 
 
-DEFAULT_SOURCE_DIR = Path(r"C:\caminho\dos\pdfs")
+DEFAULT_SOURCE_DIR = Path(__file__).resolve().parents[1] / "data" / "pdfs"
 DEFAULT_OUTPUT = Path(__file__).resolve().parents[1] / "data" / "knowledge.json"
 HEADER_PATTERN = re.compile(r"Base de Conhecimento em Nutrição\s*\|\s*NotebookLM", re.I)
 

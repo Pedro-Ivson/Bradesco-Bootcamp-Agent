@@ -10,7 +10,7 @@
 | `04_Avaliacao_Nutricional_e_Planejamento_Alimentar.pdf` | Avaliação nutricional, rótulos, porções, padrões alimentares e comportamento | Apoiar explicações gerais sobre pratos, rótulos e objetivos alimentares |
 | `05_Nutricao_Ciclo_de_Vida_Esportiva_e_Clinica.pdf` | Ciclo de vida, exercício, condições comuns e quando encaminhar | Reforçar cuidados com grupos vulneráveis e limites clínicos |
 
-Os PDFs estão em `C:\caminho\dos\pdfs`. O projeto não depende de enviar esses arquivos a um serviço externo.
+Os PDFs ficam em uma pasta local fornecida para a atividade. O projeto não depende de enviar esses arquivos a um serviço externo.
 
 ## Pipeline de ingestão
 
