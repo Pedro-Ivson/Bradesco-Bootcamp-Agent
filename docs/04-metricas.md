@@ -49,6 +49,13 @@ O teste local verifica tokenização com acentos, recuperação de um trecho sob
 python -m unittest discover -s tests -v
 ```
 
+## Resultado desta execução
+
+- `3/3` testes unitários passaram.
+- O `AppTest` do Streamlit concluiu uma conversa real com `gpt-oss:20b`, sem exceções.
+- A pergunta sobre fibras recebeu resposta baseada no trecho recuperado e a interface mostrou as fontes por arquivo e página.
+- O smoke test HTTP da aplicação retornou `200`.
+
 Esses testes não substituem avaliação humana da resposta do LLM. Para uma avaliação manual, peça a 3–5 pessoas para atribuírem notas de 1 a 5:
 
 | Métrica | Pergunta ao avaliador | Nota |
@@ -66,4 +73,3 @@ Esses testes não substituem avaliação humana da resposta do LLM. Para uma ava
 - Comparar busca lexical com embeddings locais.
 - Medir tempo de resposta e tamanho do contexto.
 - Registrar feedback sem armazenar dados pessoais ou clínicos.
-

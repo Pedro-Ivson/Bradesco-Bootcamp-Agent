@@ -30,7 +30,7 @@ Essa estratégia é suficiente para um protótipo transparente e sem infraestrut
 
 ## Exemplo de contexto
 
-Para uma pergunta como `Qual é a função das fibras?`, o prompt pode receber trechos relacionados ao papel das fibras, da microbiota, da saciedade e das fontes alimentares. A resposta deve apontar as páginas recuperadas e separar o que está documentado de qualquer sugestão geral.
+Para uma pergunta como `Qual é a função das fibras?`, o prompt pode receber trechos relacionados ao papel das fibras, da microbiota, da saciedade e das fontes alimentares. A interface mostra as páginas recuperadas, enquanto a resposta separa o que está documentado de qualquer sugestão geral. Assim, a aplicação não depende de uma citação de página escrita pelo modelo.
 
 Para uma pergunta sobre `IMC`, o contexto deve lembrar que o índice é útil para rastreamento em adultos, mas não distingue músculo de gordura e não é um diagnóstico isolado. Esse tipo de ressalva é essencial para manter a resposta educativa e segura.
 
@@ -40,4 +40,3 @@ Para uma pergunta sobre `IMC`, o contexto deve lembrar que o índice é útil pa
 - PDFs novos entram na base executando novamente o script de preparo.
 - `data/*.pdf` está no `.gitignore` para evitar versionar arquivos brutos por engano.
 - Antes de publicar o projeto, revise se a base não contém dados pessoais ou clínicos identificáveis.
-
