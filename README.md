@@ -35,8 +35,7 @@ agente-nutricionista/
 │   ├── 01-documentacao-agente.md
 │   ├── 02-base-conhecimento.md
 │   ├── 03-prompts.md
-│   ├── 04-metricas.md
-│   └── 05-pitch.md
+│   └── 04-metricas.md
 ├── src/
 │   ├── app.py               # Aplicação Streamlit
 │   ├── knowledge.py         # Recuperação lexical e fontes
@@ -113,4 +112,4 @@ O material é educacional. Qualquer pessoa com sintomas, diagnóstico, uso de me
 
 ## Documentação do Lab
 
-Os cinco documentos em `docs/` registram os seis passos pedidos pela atividade: documentação do agente, base de conhecimento, prompts, aplicação funcional, avaliação/métricas e pitch.
+Os quatro documentos em `docs/` registram a documentação do agente, a base de conhecimento, os prompts e a avaliação/métricas. A aplicação funcional está em `src/` e o roteiro revisado do pitch foi mantido fora do repositório para uso na gravação.
