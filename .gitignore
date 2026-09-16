@@ -3,6 +3,20 @@ __pycache__/
 *.py[cod]
 .pytest_cache/
 .streamlit/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.secret
+*.secret.*
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+secrets*.json
+
 data/*.pdf
 data/*_raw.txt
 
